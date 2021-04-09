@@ -4,7 +4,7 @@ function loadTitle(){
     const title = document.createElement('div')
     title.classList.add('titleBar')
     title.innerHTML = `
-    <img id = 'pesto' src = "../dist/pesto/pestoIcon.jpg" alt = "pesto"></img>
+    <img id = 'pesto' src = "https://i.imgur.com/DuT9vYV.jpg" alt = "pesto"></img>
     <h1 id = "title">Pesto Paradise</h1>
     `
     content.appendChild(title)
@@ -24,3 +24,4 @@ function loadNavbar (){
 }
 
 export {loadTitle, loadNavbar} 
+// src = "../dist/pesto/pestoIcon.jpg"
